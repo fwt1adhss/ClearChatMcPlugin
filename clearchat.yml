@@ -1,1 +1,26 @@
+###########################################################
+#
+# ClearChatSystem
+# By Fwt1adhssDev
+#
+#
+###########################################################
 
+# ClearChat Config.yml
+
+# Can use & color codes
+# You can use %player% in your config.yml
+
+# This is the global message that is sent after chat was cleared
+# You can disable this feature by setting the enabled: false.
+
+enabled: true
+
+clearchatmessage:
+  - '&8&m----------------------------------------------------'
+  - '&eChatSystem &8» &cChat has been cleared by &a%player%'
+  - '&8&m----------------------------------------------------'
+  
+# clearchat.clear – Grants permission to use the /clearchat command, allowing the player to clear the chat for all users.
+# This is the Message to the Player if they don't have permission to use the command.
+NoPermission: "&e&ClearChat &8&» &cYou don't have permission to use command!"
